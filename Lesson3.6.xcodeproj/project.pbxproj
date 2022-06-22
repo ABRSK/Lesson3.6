@@ -11,6 +11,14 @@
 		1333A7F3285B23B500EDC626 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333A7F2285B23B500EDC626 /* ContentView.swift */; };
 		1333A7F5285B23B600EDC626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1333A7F4285B23B600EDC626 /* Assets.xcassets */; };
 		1333A7F8285B23B600EDC626 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1333A7F7285B23B600EDC626 /* Preview Assets.xcassets */; };
+		1333A7FF285B23D100EDC626 /* RectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333A7FE285B23D100EDC626 /* RectView.swift */; };
+		1333A801285B26CC00EDC626 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333A800285B26CC00EDC626 /* PathView.swift */; };
+		1333A803285B2BFA00EDC626 /* CurveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333A802285B2BFA00EDC626 /* CurveView.swift */; };
+		1333A827285F1DD300EDC626 /* ShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333A826285F1DD300EDC626 /* ShapesView.swift */; };
+		1333A829285F1E9000EDC626 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333A828285F1E9000EDC626 /* CustomGridView.swift */; };
+		1333A82B285F260000EDC626 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333A82A285F260000EDC626 /* Award.swift */; };
+		1333A82D285F288C00EDC626 /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333A82C285F288C00EDC626 /* VerticalGridView.swift */; };
+		1333A82F285F2ABB00EDC626 /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1333A82E285F2ABB00EDC626 /* HorizontalGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		1333A7F2285B23B500EDC626 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1333A7F4285B23B600EDC626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1333A7F7285B23B600EDC626 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1333A7FE285B23D100EDC626 /* RectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectView.swift; sourceTree = "<group>"; };
+		1333A800285B26CC00EDC626 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		1333A802285B2BFA00EDC626 /* CurveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveView.swift; sourceTree = "<group>"; };
+		1333A826285F1DD300EDC626 /* ShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesView.swift; sourceTree = "<group>"; };
+		1333A828285F1E9000EDC626 /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
+		1333A82A285F260000EDC626 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
+		1333A82C285F288C00EDC626 /* VerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
+		1333A82E285F2ABB00EDC626 /* HorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,12 @@
 			children = (
 				1333A7F0285B23B500EDC626 /* Lesson3_6App.swift */,
 				1333A7F2285B23B500EDC626 /* ContentView.swift */,
+				1333A826285F1DD300EDC626 /* ShapesView.swift */,
+				1333A828285F1E9000EDC626 /* CustomGridView.swift */,
+				1333A82C285F288C00EDC626 /* VerticalGridView.swift */,
+				1333A82E285F2ABB00EDC626 /* HorizontalGridView.swift */,
+				13870F6C28632A310023D7C8 /* Model */,
+				13870F6B286329A30023D7C8 /* Shapes */,
 				1333A7F4285B23B600EDC626 /* Assets.xcassets */,
 				1333A7F6285B23B600EDC626 /* Preview Content */,
 			);
@@ -65,6 +87,24 @@
 				1333A7F7285B23B600EDC626 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13870F6B286329A30023D7C8 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				1333A7FE285B23D100EDC626 /* RectView.swift */,
+				1333A800285B26CC00EDC626 /* PathView.swift */,
+				1333A802285B2BFA00EDC626 /* CurveView.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
+		13870F6C28632A310023D7C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1333A82A285F260000EDC626 /* Award.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +178,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1333A7F3285B23B500EDC626 /* ContentView.swift in Sources */,
+				1333A801285B26CC00EDC626 /* PathView.swift in Sources */,
+				1333A82F285F2ABB00EDC626 /* HorizontalGridView.swift in Sources */,
+				1333A827285F1DD300EDC626 /* ShapesView.swift in Sources */,
+				1333A7FF285B23D100EDC626 /* RectView.swift in Sources */,
+				1333A829285F1E9000EDC626 /* CustomGridView.swift in Sources */,
+				1333A82D285F288C00EDC626 /* VerticalGridView.swift in Sources */,
+				1333A82B285F260000EDC626 /* Award.swift in Sources */,
+				1333A803285B2BFA00EDC626 /* CurveView.swift in Sources */,
 				1333A7F1285B23B500EDC626 /* Lesson3_6App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
